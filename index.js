@@ -2,6 +2,8 @@
 const express = require('express');
 // Load path module
 const path = require('path');
+//Calling the database connection
+const db = require('./config/mongoose');
 // Express Functionality
 const app = express();
 // Assigning the port
