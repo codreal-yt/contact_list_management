@@ -1,6 +1,6 @@
 # Contact List Management
 
-NodeJS, Express, EJS Template, Mongoose
+NodeJS, Express, EJS Template, Mongoose Mongoose using these we perfrom **CRUD** operation in this project.
 
 # Steps to run the application
 
