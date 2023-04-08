@@ -13,6 +13,9 @@ const port = 8000;
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
+//Form data is URL encoded to read an attributes of the form
+app.use(express.urlencoded());
+
 //Call and using the router in the middleware
 app.use('/', require('./routes'));
 
